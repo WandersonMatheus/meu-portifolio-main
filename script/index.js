@@ -1,3 +1,5 @@
+document.getElementById("currentYear").textContent = new Date().getFullYear();
+
 const html = document.getElementById("htmlPage");
 const checkbox = document.getElementById("checkbox");
 checkbox.addEventListener("change", ()=>{
